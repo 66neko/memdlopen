@@ -32,5 +32,5 @@ $ ./memdlopen -l 8888
 $ nc -w 1 127.0.0.1 8888 < libexample.so 
 
 ## Limitations
-* only tested on debian 8.0 (ld-2.19.so)
+* tested on ubuntu14.04 (ld-2.19.so)
 * for now, this code will only work on x86_64 systems 
